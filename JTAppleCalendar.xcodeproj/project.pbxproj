@@ -136,12 +136,16 @@
 		4412C36024E6E88A00539422 /* JTAppleCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				6B6B1F761DA1CDB40063A678 /* Delegates */,
-				6B6B1F6E1DA1CBED0063A678 /* DataStructures */,
-				6B6B1F671DA1C1790063A678 /* Protocols */,
 				6B60DED41D5BDD4D009174A2 /* GlobalFunctionsAndExtensions.swift */,
 				6B60DED61D5BDD4D009174A2 /* JTAppleCalendarLayout.swift */,
 				6B60DED71D5BDD4D009174A2 /* JTAppleCalendarView.swift */,
+				6B6B1F721DA1CD5D0063A678 /* UICollectionViewDelegates.swift */,
+				6B60DED51D5BDD4D009174A2 /* UIScrollViewDelegates.swift */,
+				6B6B1F6F1DA1CC130063A678 /* CalendarStructs.swift */,
+				6B74405D1D6ADE6A00DE2386 /* CalendarEnums.swift */,
+				6BA9245D1D8FD33F00415488 /* JTAppleCalendarDelegateProtocol.swift */,
+				6B60DEDB1D5BDD4D009174A2 /* JTCalendarProtocols.swift */,
+				6B6B1F681DA1CB130063A678 /* JTAppleCalendarLayoutProtocol.swift */,
 				6BAB2C411E9B49D500FF125F /* JTAppleCalendarVariables.swift */,
 				6B60DED81D5BDD4D009174A2 /* JTAppleCollectionReusableView.swift */,
 				6B60DED91D5BDD4D009174A2 /* JTAppleCell.swift */,
@@ -203,37 +207,6 @@
 				6B60DF2E1D5BEFA4009174A2 /* JTAppleCalendar_tvOSTests.swift */,
 			);
 			path = Tests;
-			sourceTree = "<group>";
-		};
-		6B6B1F671DA1C1790063A678 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				6BA9245D1D8FD33F00415488 /* JTAppleCalendarDelegateProtocol.swift */,
-				6B60DEDB1D5BDD4D009174A2 /* JTCalendarProtocols.swift */,
-				6B6B1F681DA1CB130063A678 /* JTAppleCalendarLayoutProtocol.swift */,
-			);
-			name = Protocols;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		6B6B1F6E1DA1CBED0063A678 /* DataStructures */ = {
-			isa = PBXGroup;
-			children = (
-				6B6B1F6F1DA1CC130063A678 /* CalendarStructs.swift */,
-				6B74405D1D6ADE6A00DE2386 /* CalendarEnums.swift */,
-			);
-			name = DataStructures;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		6B6B1F761DA1CDB40063A678 /* Delegates */ = {
-			isa = PBXGroup;
-			children = (
-				6B6B1F721DA1CD5D0063A678 /* UICollectionViewDelegates.swift */,
-				6B60DED51D5BDD4D009174A2 /* UIScrollViewDelegates.swift */,
-			);
-			name = Delegates;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
