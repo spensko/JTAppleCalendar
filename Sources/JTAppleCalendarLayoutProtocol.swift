@@ -22,6 +22,8 @@
 //  THE SOFTWARE.
 //
 
+import UIKit
+import Foundation
 
 protocol JTAppleCalendarLayoutProtocol: class {
     var minimumInteritemSpacing: CGFloat {get set}

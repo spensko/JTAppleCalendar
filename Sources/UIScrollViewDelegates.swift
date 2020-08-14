@@ -21,6 +21,10 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 //
+
+import UIKit
+import Foundation
+
 extension JTAppleCalendarView: UIScrollViewDelegate {
     /// Inform the scrollViewDidEndDecelerating
     /// function that scrolling just occurred
