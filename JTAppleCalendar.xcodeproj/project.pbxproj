@@ -310,7 +310,7 @@
 				6B60DF721D5C07F4009174A2 /* Example */,
 				6B60DF2D1D5BEC86009174A2 /* Tests */,
 				6B60DF2C1D5BEB5C009174A2 /* Metadata */,
-				6B60DED21D5BDAF4009174A2 /* Sources */,
+				6B60DED21D5BDAF4009174A2 /* Source */,
 				6BD193381F73991400244060 /* UITests */,
 				6B60DEBD1D5BDA46009174A2 /* Products */,
 			);
@@ -330,7 +330,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6B60DED21D5BDAF4009174A2 /* Sources */ = {
+		6B60DED21D5BDAF4009174A2 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				6B6B1F761DA1CDB40063A678 /* Delegates */,
@@ -349,7 +349,7 @@
 				6B60DECE1D5BDA74009174A2 /* Info-tvOS.plist */,
 				6B60DEC11D5BDA46009174A2 /* Info-iOS.plist */,
 			);
-			path = Sources;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		6B60DF0C1D5BE834009174A2 /* JTAppleCalendar iOS Example */ = {
@@ -731,6 +731,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
