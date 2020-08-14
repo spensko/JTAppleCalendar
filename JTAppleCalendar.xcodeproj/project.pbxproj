@@ -287,6 +287,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4412C36024E6E88A00539422 /* JTAppleCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				6B6B1F761DA1CDB40063A678 /* Delegates */,
+				6B6B1F6E1DA1CBED0063A678 /* DataStructures */,
+				6B6B1F671DA1C1790063A678 /* Protocols */,
+				6B60DED41D5BDD4D009174A2 /* GlobalFunctionsAndExtensions.swift */,
+				6B60DED61D5BDD4D009174A2 /* JTAppleCalendarLayout.swift */,
+				6B60DED71D5BDD4D009174A2 /* JTAppleCalendarView.swift */,
+				6BAB2C411E9B49D500FF125F /* JTAppleCalendarVariables.swift */,
+				6B60DED81D5BDD4D009174A2 /* JTAppleCollectionReusableView.swift */,
+				6B60DED91D5BDD4D009174A2 /* JTAppleCell.swift */,
+				6B60DEDC1D5BDD4D009174A2 /* UserInteractionFunctions.swift */,
+				6B75F55D1F83A60200AFC07F /* InternalQueryFunctions.swift */,
+				6B75F5601F83A7B600AFC07F /* InternalActionFunctions.swift */,
+				6B60DEBF1D5BDA46009174A2 /* JTAppleCalendar.h */,
+				6B60DECE1D5BDA74009174A2 /* Info-tvOS.plist */,
+				6B60DEC11D5BDA46009174A2 /* Info-iOS.plist */,
+			);
+			path = JTAppleCalendar;
+			sourceTree = "<group>";
+		};
 		6B4025F01DFB8CB80083E6AE /* Animation */ = {
 			isa = PBXGroup;
 			children = (
@@ -310,7 +332,7 @@
 				6B60DF721D5C07F4009174A2 /* Example */,
 				6B60DF2D1D5BEC86009174A2 /* Tests */,
 				6B60DF2C1D5BEB5C009174A2 /* Metadata */,
-				6B60DED21D5BDAF4009174A2 /* Source */,
+				6B60DED21D5BDAF4009174A2 /* Sources */,
 				6BD193381F73991400244060 /* UITests */,
 				6B60DEBD1D5BDA46009174A2 /* Products */,
 			);
@@ -330,26 +352,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6B60DED21D5BDAF4009174A2 /* Source */ = {
+		6B60DED21D5BDAF4009174A2 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				6B6B1F761DA1CDB40063A678 /* Delegates */,
-				6B6B1F6E1DA1CBED0063A678 /* DataStructures */,
-				6B6B1F671DA1C1790063A678 /* Protocols */,
-				6B60DED41D5BDD4D009174A2 /* GlobalFunctionsAndExtensions.swift */,
-				6B60DED61D5BDD4D009174A2 /* JTAppleCalendarLayout.swift */,
-				6B60DED71D5BDD4D009174A2 /* JTAppleCalendarView.swift */,
-				6BAB2C411E9B49D500FF125F /* JTAppleCalendarVariables.swift */,
-				6B60DED81D5BDD4D009174A2 /* JTAppleCollectionReusableView.swift */,
-				6B60DED91D5BDD4D009174A2 /* JTAppleCell.swift */,
-				6B60DEDC1D5BDD4D009174A2 /* UserInteractionFunctions.swift */,
-				6B75F55D1F83A60200AFC07F /* InternalQueryFunctions.swift */,
-				6B75F5601F83A7B600AFC07F /* InternalActionFunctions.swift */,
-				6B60DEBF1D5BDA46009174A2 /* JTAppleCalendar.h */,
-				6B60DECE1D5BDA74009174A2 /* Info-tvOS.plist */,
-				6B60DEC11D5BDA46009174A2 /* Info-iOS.plist */,
+				4412C36024E6E88A00539422 /* JTAppleCalendar */,
 			);
-			path = Source;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		6B60DF0C1D5BE834009174A2 /* JTAppleCalendar iOS Example */ = {
@@ -476,6 +484,7 @@
 				6B6B1F681DA1CB130063A678 /* JTAppleCalendarLayoutProtocol.swift */,
 			);
 			name = Protocols;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		6B6B1F6E1DA1CBED0063A678 /* DataStructures */ = {
@@ -485,6 +494,7 @@
 				6B74405D1D6ADE6A00DE2386 /* CalendarEnums.swift */,
 			);
 			name = DataStructures;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		6B6B1F761DA1CDB40063A678 /* Delegates */ = {
@@ -494,6 +504,7 @@
 				6B60DED51D5BDD4D009174A2 /* UIScrollViewDelegates.swift */,
 			);
 			name = Delegates;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		6B9027E91F48821C00BDF3C3 /* Example Calendars */ = {
@@ -1160,7 +1171,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Sources/Info-iOS.plist";
+				INFOPLIST_FILE = "Sources/JTAppleCalendar/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1216,7 +1227,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Sources/Info-iOS.plist";
+				INFOPLIST_FILE = "Sources/JTAppleCalendar/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1277,7 +1288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
+				INFOPLIST_FILE = "Sources/JTAppleCalendar/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1332,7 +1343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
+				INFOPLIST_FILE = "Sources/JTAppleCalendar/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
